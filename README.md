@@ -13,3 +13,8 @@
 5 - Criação da referencia entre os projetos
     Obs: Domain nunca referencia nenhum projeto, ele sempre será referenciado (caso contrário, problema de referencia cruzada).
 
+6 - Registrado biblioteca Flunt (balta.io)
+
+# Designs utilizados:
+
+1 - Design by contracts
