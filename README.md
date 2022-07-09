@@ -15,6 +15,13 @@
 
 6 - Registrado biblioteca Flunt (balta.io)
 
-# Designs utilizados:
+# Designs/Patterns utilizados:
 
 1 - Design by contracts
+    - Usado para padronizar as chamadas ao domínio.
+
+2 - Repository Pattern
+    - Unidade de acesso a dados.
+    - Divide responsabilidades (o sistema passa a não se importar onde os dados serão armazenados).
+
+2 - Abordado sobre a técnica de red green refactor (testes)
