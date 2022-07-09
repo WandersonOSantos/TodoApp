@@ -12,10 +12,7 @@ namespace Todo.Domain.Commands
         public string Title { get; set; }
         public string User { get; set; }
         public DateTime Date { get; set; }
-        public CreateTodoCommand()
-        {
-
-        }
+        public CreateTodoCommand(){}
 
         public CreateTodoCommand(string title, string user, DateTime date)
         {
@@ -30,9 +27,8 @@ namespace Todo.Domain.Commands
                 new Contract()
                     .Requires()
                     .HasMinLen(Title, 3, "Title", "Por favor, descreva melhor esta tarefa!")
-                    .HasMinLen(User , 6, "User" , "Usuário Inválido!")
+                    .HasMinLen(User, 6, "User", "Usuário Inválido!")
             );
-
         }
 
 
