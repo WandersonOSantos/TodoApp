@@ -1,0 +1,4 @@
+{
+    "omnisharp.analyzeOpenDocumentsOnly": true,
+    "csharp.format.enable": true
+}
