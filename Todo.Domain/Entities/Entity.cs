@@ -6,7 +6,7 @@ namespace Todo.Domain.Entities
     {
         public Guid Id { get; private set; }
 
-        public Entity(Guid id)
+        public Entity()
         {
             Id = Guid.NewGuid();
         }
