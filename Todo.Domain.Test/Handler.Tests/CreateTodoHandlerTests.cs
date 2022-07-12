@@ -11,7 +11,7 @@ namespace Todo.Domain.Test.Handler.Tests
     public class CreateTodoHandlerTests
     {
         private readonly CreateTodoCommand _invalidCommand = new CreateTodoCommand("", "", DateTime.Now);
-        private readonly CreateTodoCommand _validCommand = new CreateTodoCommand("Título da tarefa","wanderson.osantos", DateTime.Now);
+        private readonly CreateTodoCommand _validCommand = new CreateTodoCommand("Título da tarefa","usuario.teste", DateTime.Now);
         private readonly TodoHandler _handler = new TodoHandler(new FakeTodoRepository());
         private GenericCommandResult _result;
 
